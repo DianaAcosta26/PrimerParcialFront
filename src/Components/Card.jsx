@@ -1,7 +1,11 @@
-import {containerCard} from './Card.module.css'
-const Card = () => {
+
+const Card = ({nombre, color}) => {
   return (
-    <div className={containerCard}> Hola, soy una tarjeta </div>
+    <div className="card">
+      <h2> Hola {nombre}</h2>
+        <h3>Sabemos que tu color favorito es:</h3>
+          {color}
+    </div>
   )
 }
 

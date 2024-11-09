@@ -1,17 +1,13 @@
-import Card from './Components/Card'
 import './App.css'
+import Form from "../src/Components/Form";
 
+const App = () => {
+    return (
+        <div>
+            <h1>Elige un color</h1>
+            <Form />
+        </div>
+    );
+};
 
-function App (){
-  return (
-    <div className='App'>
-      <h1>Carga de estudiantes</h1>
-      <form></form>
-      <Card/>
-
-    </div>
-  );
-
-}
-
-export default App
+export default App;
